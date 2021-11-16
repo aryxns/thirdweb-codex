@@ -1,8 +1,8 @@
 import streamlit as st
 import os
 import openai
-st.write(st.secrets["db"])
-openai.api_key = st.secrets["db"]
+api_key = (st.secrets["db"])
+openai.api_key = api_key
 
 st.title('Thirdweb Python SDK Code generator')
 
