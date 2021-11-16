@@ -5,7 +5,7 @@ from googleapiclient import sample_tools
 import os
 import openai
 
-openai.api_key = "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"
+openai.api_key = os.getenv("PKEYOPEN")
 
 st.title('Thirdweb Python SDK Code generator')
 
