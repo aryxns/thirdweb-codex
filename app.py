@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import openai
 
-openai.api_key = st.secrets["PKEYOPEN"]
+openai.api_key = os.environ["PKEYOPEN"]
 
 st.title('Thirdweb Python SDK Code generator')
 
