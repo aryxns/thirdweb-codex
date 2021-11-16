@@ -1,7 +1,4 @@
 import streamlit as st
-import requests
-import sys
-from googleapiclient import sample_tools
 import os
 import openai
 
